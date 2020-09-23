@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Historic NeedIt Data" language="en" table="x_19757_needit_historic_needit_data">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Historic NeedIt Data</label>
+            <language>en</language>
+            <name>x_19757_needit_historic_needit_data</name>
+            <plural>Historic NeedIt Data</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-23 04:09:53</sys_created_on>
+            <sys_id>4ae15aabdb931010225e2706ca96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Historic NeedIt Data</sys_name>
+            <sys_package display_value="NeedIt" source="x_19757_needit">1bdb4d8ddbd31010225e2706ca9619fb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">1bdb4d8ddbd31010225e2706ca9619fb</sys_scope>
+            <sys_update_name>sys_documentation_x_19757_needit_historic_needit_data__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-23 04:09:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

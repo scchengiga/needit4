@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>true</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Import Historic NeedIt Data">9cf19aabdb931010225e2706ca961937</map>
+        <reference_value_field/>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+    // If the source data does not have a u_requested_for_email field, 
+    // create the target email address from the Requested for value.  Email addresses 
+    // have the format firstname.lastname@example.com.  Convert the u_requested_for 
+    // value to lowercase.  Replace the space with a . and concatenate with 
+    // @example.com
+    if (!("u_requested_for_email" in source)) {
+        var name = source.u_requested_for.toLowerCase();
+        return name.replace(" ", ".") + "@example.com";
+    }
+
+})(source);]]></source_script>
+        <source_table>x_19757_needit_historic_needit_data</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-23 04:35:25</sys_created_on>
+        <sys_id>b0a752afdb931010225e2706ca9619be</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="NeedIt" source="x_19757_needit">1bdb4d8ddbd31010225e2706ca9619fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">1bdb4d8ddbd31010225e2706ca9619fb</sys_scope>
+        <sys_update_name>sys_transform_entry_b0a752afdb931010225e2706ca9619be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-23 04:43:08</sys_updated_on>
+        <target_field>u_requested_for_email</target_field>
+        <target_table>x_19757_needit_needit</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+</record_update>
