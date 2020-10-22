@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <name> Generate Random NeedIt Records</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2020-10-21 23:13:45</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var recordsToMake = 500;
+
+var gr = new GlideRecord('x_19757_needit_needit');
+var i=0;
+while (i< recordsToMake) {
+	
+	gr.initialize();
+	gr.u_requested_for = '6816f79cc0a8016401c5a33be04be441'; //admin
+	gr.u_requested_for_email = 'admin@example.com';
+	gr.u_request_type = 'legal';
+	gr.u_what_needed = 'legal1';
+	var tempWhen =  new GlideDateTime();
+	tempWhen.addDaysLocalTime(i);
+	gr.u_when_needed =tempWhen.toString();
+	gr.short_description = 'Random NeedIt ' + (i+1);
+	gr.description = 'NeedIt created by script ';
+	gr.priority = '4';//low
+	gr.state = '13'; //requested
+	gr.insert();
+		
+	i++;
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-21 23:13:56</sys_created_on>
+        <sys_id>7a3466f0db402010225e2706ca961900</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name> Generate Random NeedIt Records</sys_name>
+        <sys_package display_value="NeedIt" source="x_19757_needit">1bdb4d8ddbd31010225e2706ca9619fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">1bdb4d8ddbd31010225e2706ca9619fb</sys_scope>
+        <sys_update_name>sysauto_script_7a3466f0db402010225e2706ca961900</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-21 23:33:53</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
