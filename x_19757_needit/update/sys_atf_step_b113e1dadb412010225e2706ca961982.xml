@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Record Insert">3902a59adb412010225e2706ca9619bd</copied_from>
+        <description>Insert a record into 'x_19757_needit_needit' with the following values:
+When needed =  javascript:gs.daysAgo(3)
+and Requested for = {{Step 1: Create a User.User}}
+and Requested for email = {{Step 1: Create a User.User.First name}}.{{Step 1: Create a User.User.Last name}}@example.com
+and Request type = (empty)
+Confirm the record was successfully inserted</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <snapshot/>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 03:22:49</sys_created_on>
+        <sys_id>b113e1dadb412010225e2706ca961982</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="NeedIt" source="x_19757_needit">1bdb4d8ddbd31010225e2706ca9619fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">1bdb4d8ddbd31010225e2706ca9619fb</sys_scope>
+        <sys_update_name>sys_atf_step_b113e1dadb412010225e2706ca961982</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 03:23:50</sys_updated_on>
+        <table>x_19757_needit_needit</table>
+        <test display_value="When needed - Past">f113a1dadb412010225e2706ca961998</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=b113e1dadb412010225e2706ca961982"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b113e1dadb412010225e2706ca961982</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 03:22:49</sys_created_on>
+        <sys_id>3913e1dadb412010225e2706ca961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 03:22:49</sys_updated_on>
+        <value>x_19757_needit_needit</value>
+        <variable display_value="">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b113e1dadb412010225e2706ca961982</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 03:22:49</sys_created_on>
+        <sys_id>7513e1dadb412010225e2706ca961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 03:22:49</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b113e1dadb412010225e2706ca961982</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 03:22:49</sys_created_on>
+        <sys_id>b113e1dadb412010225e2706ca961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 03:22:49</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b113e1dadb412010225e2706ca961982</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 03:22:49</sys_created_on>
+        <sys_id>f913e1dadb412010225e2706ca961984</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 03:23:50</sys_updated_on>
+        <value>u_when_needed= javascript:gs.daysAgo(3)^u_requested_for={{step['f913a1dadb412010225e2706ca96199b'].user}}^u_requested_for_email={{step['f913a1dadb412010225e2706ca96199b'].user.first_name}}.{{step['f913a1dadb412010225e2706ca96199b'].user.last_name}}@example.com^u_request_type=^EQ</value>
+        <variable display_value="">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b113e1dadb412010225e2706ca961982"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>b113e1dadb412010225e2706ca961982</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 03:22:49</sys_created_on>
+        <sys_id>fd13e1dadb412010225e2706ca961984</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 03:23:50</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value>u_when_needed= javascript:gs.daysAgo(3)^u_requested_for={{step['f913a1dadb412010225e2706ca96199b'].user}}^u_requested_for_email={{step['f913a1dadb412010225e2706ca96199b'].user.first_name}}.{{step['f913a1dadb412010225e2706ca96199b'].user.last_name}}@example.com^u_request_type=^EQ</value>
+    </sys_element_mapping>
+</record_update>
