@@ -3,7 +3,7 @@
         <active>true</active>
         <copied_from display_value="Record Insert">453f551adb412010225e2706ca9619bd</copied_from>
         <description>Insert a record into 'x_19757_needit_needit' with the following values:
-When needed = 2020-12-14 19:42:25
+When needed = 2020-12-16 16:36:25
 and Requested for = {{Step 1: Create a User.User}}
 and Requested for email = {{Step 1: Create a User.User.First name}}.{{Step 1: Create a User.User.Last name}}@example.com
 and Request type = (empty)
@@ -20,14 +20,14 @@ Confirm the record was successfully inserted</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-15 03:18:10</sys_created_on>
         <sys_id>3902a59adb412010225e2706ca9619bd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Record Insert</sys_name>
         <sys_package display_value="NeedIt" source="x_19757_needit">1bdb4d8ddbd31010225e2706ca9619fb</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">1bdb4d8ddbd31010225e2706ca9619fb</sys_scope>
         <sys_update_name>sys_atf_step_3902a59adb412010225e2706ca9619bd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-15 03:22:25</sys_updated_on>
+        <sys_updated_on>2020-12-17 00:16:25</sys_updated_on>
         <table>x_19757_needit_needit</table>
         <test display_value="When needed - Today">b502e19adb412010225e2706ca961959</test>
         <timeout/>
@@ -42,9 +42,9 @@ Confirm the record was successfully inserted</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-15 03:18:10</sys_created_on>
         <sys_id>3902a59adb412010225e2706ca9619bf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-15 03:18:10</sys_updated_on>
+        <sys_updated_on>2020-12-17 00:16:25</sys_updated_on>
         <value>record_successfully_inserted</value>
         <variable display_value="">9024a37f671003007ba405225685efe5</variable>
     </sys_variable_value>

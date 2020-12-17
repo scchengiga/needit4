@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order/>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-17 02:02:53</sys_created_on>
+        <sys_id>b1e3ebbedb812010225e2706ca9619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f0832bbedb812010225e2706ca961987</sys_name>
+        <sys_package display_value="NeedIt" source="x_19757_needit">1bdb4d8ddbd31010225e2706ca9619fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">1bdb4d8ddbd31010225e2706ca9619fb</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_b1e3ebbedb812010225e2706ca9619c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-17 02:02:53</sys_updated_on>
+        <test display_value="NeedIt Fail Test">f0832bbedb812010225e2706ca961987</test>
+        <test_suite display_value="NeedIt App">c23ffef2db412010225e2706ca961991</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>
